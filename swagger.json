@@ -1,0 +1,103 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "REST API",
+    "description": ""
+  },
+  "host": "localhost:3000",
+  "basePath": "/",
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/soma": {
+      "get": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "a",
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "b",
+            "in": "query",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/subtracao": {
+      "get": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "a",
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "b",
+            "in": "query",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/multiplicacao": {
+      "get": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "a",
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "b",
+            "in": "query",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/divisao": {
+      "get": {
+        "description": "Divisao.",
+        "parameters": [
+          {
+            "name": "a",
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "b",
+            "in": "query",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  }
+}
